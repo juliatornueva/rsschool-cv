@@ -11,3 +11,18 @@
 
 I am 34 years old. I have extensive experience in various fields, but don`t like it.
 I want to learn front-end development in [RSS] (https://rs.school).
+
+## Skills:
+
+* JavaScript Basics
+* Visual Studio Code
+
+## Code Example:
+
+From [Codewars](https://www.codewars.com): Given an array of integers, return a new array with each value doubled.
+
+```javascript
+function maps(x){
+  return x.map(n => n * 2);
+};
+```
