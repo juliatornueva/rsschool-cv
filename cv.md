@@ -10,7 +10,7 @@
 ## About Myself
 
 I am 34 years old. I have extensive experience in various fields, but don`t like it.
-I want to learn front-end development in [RSS] (https://rs.school).
+I want to learn front-end development in [RSS](https://rs.school) .
 
 ## Skills:
 
