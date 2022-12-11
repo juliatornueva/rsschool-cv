@@ -26,3 +26,14 @@ function maps(x){
   return x.map(n => n * 2);
 };
 ```
+
+## Education:
+
+1. Herzen University, Saint Petersburg
+   * Faculty of History
+2. Java Script video courses on YouTube
+
+## Languages:
+
+* Russian - Native
+* English - Pre-Intermediate
