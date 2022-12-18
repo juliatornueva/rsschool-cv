@@ -70,9 +70,29 @@ body {
     border-bottom: 5px dotted #79afe8;
 }
 
+.list {
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #1d62ab;
+    border-radius: 50%;
+}
+
 .separation {
     background-color: #a3c8f0;
-    color: #000;
+    color:#1d62ab;
 }
 
 .avatar {
@@ -94,6 +114,7 @@ body {
     padding: 0 20px;
     line-height: 50px;
     transition: 3s;
+    color: #1d62ab;
 }
 
 .rss {
