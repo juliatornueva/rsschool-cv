@@ -48,6 +48,14 @@ body {
     flex-wrap: wrap;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
 .section {
    width: 50%;
    padding: 10px;
@@ -67,6 +75,7 @@ body {
 
 .avatar {
     width: 200px;
+    height: auto;
     border-radius: 50%;
     box-shadow: 4px 4px 14px #79afe8;
 }
@@ -83,6 +92,13 @@ body {
     padding: 0 20px;
     line-height: 50px;
     transition: 3s;
+}
+
+.rss {
+    width: 110px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1 {
