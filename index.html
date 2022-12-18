@@ -8,18 +8,31 @@
         <link rel="icon" href="./assets/svg/icon64.ico"> 
     </head>
     <body>
-       <header>
+       <header class="separation">
             <div class="container">
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
             </div>
        </header>
        <main>
-            <div class="container">
-                <section id="profile">
-                    <img src="/assets/img/Avatar.jpg" alt="My foto" width="200px">
-                    <h1>Julia Tornueva</h1>
-                    <p>junior front-end developer</p>
+            <div class="container main-container">
+                <section class="sec-profile" id="profile">
+                    <img src="/assets/img/Avatar.jpg" alt="My foto" class="avatar">
+                    <div>
+                        <h1>Julia Tornueva</h1>
+                        <h2>Junior Frontend Developer</h2>
+                    </div>
                 </section>
-                <section id="contacts">
+                <section class="section" id="contacts">
                     <h2>Contacts</h2>
                     <nav>
                         <ul>
@@ -30,12 +43,12 @@
                         </ul>
                     </nav>
                 </section>
-                <section id="summary">
+                <section class="section" id="summary">
                     <h2>Summary</h2>
                     <p>I am 34 years old. I have extensive experience in various fields, but don`t like it.</p>
                     <p>I want to learn front-end development in RSS.</p>
                 </section>
-                <section id="skills">
+                <section class="section" id="skills">
                     <h2>Skills</h2>
                     <nav>
                         <ul>
@@ -47,7 +60,7 @@
                         </ul>
                     </nav>
                 </section>
-                <section id="code">
+                <section class="section" id="code">
                     <h2>Code</h2>
                     <code>
                         <pre>
@@ -57,7 +70,7 @@
                         </pre>
                     </code>
                 </section>
-                <section id="education">
+                <section class="section" id="education">
                     <h2>Education</h2>
                     <nav>
                         <ul>
@@ -66,7 +79,7 @@
                         </ul>
                     </nav>
                 </section>
-                <section id="projects">
+                <section class="section" id="projects">
                     <h2>Projects</h2>
                 </section>
                 <section id="languages">
@@ -80,7 +93,7 @@
                 </section>
             </div>
        </main>
-       <footer>
+       <footer class="separation">
             <div class="container">
             </div>
        </footer>
